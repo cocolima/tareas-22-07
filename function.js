@@ -4,7 +4,7 @@ function mediaArray(array) {
         suma += array[i];
     }
     let media = 0;
-    media = (suma / array.length-1).toFixed(2);
+    media = (suma / array.length).toFixed(2);
     return media;
 }
 
